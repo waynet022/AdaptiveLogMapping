@@ -1,7 +1,7 @@
 clear all;close all; clc
 
 % Load and display image
-Original = imread('sample3.jpg');
+Original = imread('images/sample3.jpg');
 
 % Convert image to floating point values
 I = double(Original);
